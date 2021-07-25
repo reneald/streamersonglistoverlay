@@ -2,24 +2,12 @@
 
 A simple overlay for displaying your current queue on streamersonglist.com.
 
-If you are a Twitch streamer using streamersonglist.com and you would like to be able to show your song list on the screen for your viewers, you can use this overlay to do so.
-
-## Prerequisites
-
-* An active account at streamersonglist.com.
-* Streaming software capable of showing a Browser Source, such as **OBS** or **StreamLabs OBS**.
 
 ## Initial setup
 
 Download the ZIP file and extract it somewhere on your computer, for example, **C:\streamoverlays**.
 
-Go inside the ```lib``` directory and open ```streamersonglist.js```. Near the top, you will see something like this:
-
-```
-const streamerName = "yourTwitchName";
-```
-
-Replace **yourTwitchName** with your Twitch name, making sure to keep the double quotes in place (the **"** characters), and save the file.
+Hey Mike, I'm assuming that you haven't been on GitHub before. As long as you stay on this page (where it says `/tree/toehider` in the address bar) you're viewing the code that's tailored for you. It's called the `toehider branch`.If you don't see this paragraph any more, you'll be on a different branch, viewing code that you can't simply download and start using. Just go to the original link again to return here.
 
 ## Testing
 
@@ -54,6 +42,8 @@ The URL where the streamersonglist.com API is found. You will not need to edit t
 Your name on Twitch, in lower case. This should match the name you're using on streamersonglist.com as well, which is normally automatic when you sign up.
 
 For example, if your name on Twitch is "My_Cool_Name", you would use "my_cool_name" (lower case).
+
+On this branch, I've already set it to "toehider".
 
 ### streamerId
 
